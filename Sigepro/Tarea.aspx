@@ -53,10 +53,6 @@
             </asp:Calendar>
             <br />
             <br />
-            Lista de tareas<asp:GridView ID="GridView1" runat="server">
-            </asp:GridView>
-            <br />
-            <br />
             Lista de personal<br />
             <asp:DropDownList ID="DropDownList2" runat="server">
             </asp:DropDownList>

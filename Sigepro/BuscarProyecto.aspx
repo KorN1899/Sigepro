@@ -12,12 +12,19 @@
         <div>
             Buscar Proyecto<br />
             <br />
-            Id Proyecto<br />
-            Descripción<br />
-            Avance Promedio<br />
-            Costo del proyecto<br />
-            Responsable del proyecto<br />
-            Cuit del cliente<br />
+            Id Proyecto<asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
+            <asp:Button ID="Button4" runat="server" style="margin-left: 45px" Text="Buscar" Width="112px" />
+            <br />
+            Descripción<asp:TextBox ID="TextBox2" runat="server"></asp:TextBox>
+            <br />
+            Avance Promedio<asp:TextBox ID="TextBox3" runat="server" Enabled="False"></asp:TextBox>
+            <br />
+            Costo del proyecto<asp:TextBox ID="TextBox4" runat="server" Enabled="False" ReadOnly="True"></asp:TextBox>
+            <br />
+            Responsable del proyecto<asp:TextBox ID="TextBox5" runat="server"></asp:TextBox>
+            <br />
+            Cuit del cliente<asp:TextBox ID="TextBox6" runat="server" Enabled="False"></asp:TextBox>
+            <br />
             <br />
             <asp:Button ID="Button1" runat="server" Text="Eliminar proyecto" Width="149px" />
             <asp:Button ID="Button2" runat="server" style="margin-left: 56px" Text="Lista de proyectos" Width="114px" />
